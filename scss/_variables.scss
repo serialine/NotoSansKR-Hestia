@@ -1,0 +1,25 @@
+// file path
+$noto-sans-path: '/fonts' !default;
+
+// font-weights
+$noto-sans-weight-thin: 100 !default;
+$noto-sans-weight-light: 200 !default;
+$noto-sans-weight-demilight: 300 !default;
+$noto-sans-weight-regular: 400 !default;
+$noto-sans-weight-medium: 500 !default;
+$noto-sans-weight-bold: 700 !default;
+$noto-sans-weight-black: 900 !default;
+$noto-sans-weight-map: (
+  'thin': $noto-sans-weight-thin,
+  'light': $noto-sans-weight-light,
+  'demilight': $noto-sans-weight-demilight,
+  'regular': $noto-sans-weight-regular,
+  'medium': $noto-sans-weight-medium,
+  'bold': $noto-sans-weight-bold,
+  'black': $noto-sans-weight-black
+) !default;
+
+// @font-face variables
+$noto-sans-family: 'Noto Sans KR' !default;
+$noto-sans-prefix: 'NotoSansKR-' !default;
+$noto-sans-postfix: '-Hestia' !default;

@@ -1,0 +1,31 @@
+@import "variables";
+
+@each $name, $weight in $noto-sans-weight-map {
+  $noto-sans-weight: to-upper-case(str-slice($name, 1, 1)) + str-slice($name, 2);
+  $filename: $noto-sans-prefix + $noto-sans-weight + $noto-sans-postfix;
+  $noto-sans-src: $noto-sans-path + '/' + $filename;
+
+  // @font-face definition
+  @font-face {
+    font-family: $noto-sans-family;
+    font-style: normal;
+    font-weight: $weight;
+    src: url(unquote($noto-sans-src + '.woff2')) format('woff2'),
+    url(unquote($noto-sans-src + '.woff')) format('woff'),
+    url(unquote($noto-sans-src + '.eot')),
+    url(unquote($noto-sans-src + '.eot?#iefix')) format('embedded-opentype'),
+    url(unquote($noto-sans-src + '.otf')) format('opentype');
+  }
+
+  // font-weight helper
+  // <span class="noto-sans noto-demilight">안녕하세요!</span>
+  .noto-#{$name} {
+    font-weight: $weight;
+  }
+}
+
+// font-family helper
+// <span class="noto-sans">안녕하세요!</span>
+.noto-sans {
+  font-family: $noto-sans-family, sans-serif;
+}
