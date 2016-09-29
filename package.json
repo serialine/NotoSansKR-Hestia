@@ -1,0 +1,21 @@
+{
+  "name": "notosanskr-hestia-scss",
+  "version": "1.0.0",
+  "description": "NotoSansKR-Hestia to SCSS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serialine/NotoSansKR-Hestia.git"
+  },
+  "keywords": [
+    "Noto",
+    "Sans",
+    "Korean",
+    "Font"
+  ],
+  "author": "Seungjin Kang",
+  "license": "Apache License, version 2.0",
+  "bugs": {
+    "url": "https://github.com/serialine/NotoSansKR-Hestia/issues"
+  },
+  "homepage": "https://github.com/serialine/NotoSansKR-Hestia#readme"
+}

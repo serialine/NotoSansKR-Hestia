@@ -1,0 +1,23 @@
+{
+  "name": "notosanskr-hestia-scss",
+  "description": "NotoSansKR-Hestia to SCSS",
+  "main": "",
+  "authors": [
+    "Seungjin Kang"
+  ],
+  "license": "Apache License, version 2.0",
+  "keywords": [
+    "Noto",
+    "Sans",
+    "Korean",
+    "Font"
+  ],
+  "homepage": "https://github.com/serialine/NotoSansKR-Hestia",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
