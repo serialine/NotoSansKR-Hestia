@@ -1,7 +1,6 @@
 {
   "name": "notosanskr-hestia-scss",
   "description": "NotoSansKR-Hestia to SCSS",
-  "main": "",
   "authors": [
     "Seungjin Kang"
   ],
@@ -12,7 +11,7 @@
     "Korean",
     "Font"
   ],
-  "homepage": "https://github.com/serialine/NotoSansKR-Hestia",
+  "homepage": "https://github.com/serialine/notosanskr-hestia-scss",
   "ignore": [
     "**/.*",
     "node_modules",
